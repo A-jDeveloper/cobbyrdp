@@ -12,7 +12,7 @@ steps:
 
 - name: Downloading & Installing Essentials
 run: |
-Invoke-WebRequest =Uri "https://gitlab.com/chamod12/1m_win-10_github_rdp/-/raw/main/Downloads.bat" QutEile "Downloads.bat"
+Invoke-WebRequest -Uri "https://gitlab.com/chamod12/1m_win-10_github_rdp/-/raw/main/Downloads.bat" QutEile "Downloads.bat"
 cmd /c Downloads.bat
 
 name: Connect to LiteManager 
